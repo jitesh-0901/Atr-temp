@@ -1,0 +1,58 @@
+import { Holiday } from '../types/holiday';
+
+export const initialHolidays: Holiday[] = [
+  {
+    id: 'hol_1',
+    date: '2026-11-08',
+    name: 'Deepavali / Diwali',
+    description: 'Festival of Lights - Mandatory Organization Holiday',
+    type: 'PUBLIC',
+    isActive: true,
+    createdAt: '2026-01-05T00:00:00Z',
+  },
+  {
+    id: 'hol_2',
+    date: '2026-12-25',
+    name: 'Christmas Day',
+    description: 'Christmas Celebration - Global Office Closure',
+    type: 'PUBLIC',
+    isActive: true,
+    createdAt: '2026-01-05T00:00:00Z',
+  },
+  {
+    id: 'hol_3',
+    date: '2027-01-01',
+    name: 'New Year Day',
+    description: 'New Year 2027 Welcome Break',
+    type: 'PUBLIC',
+    isActive: true,
+    createdAt: '2026-01-05T00:00:00Z',
+  },
+  {
+    id: 'hol_4',
+    date: '2027-01-14',
+    name: 'Pongal / Makar Sankranti',
+    description: 'Harvest Festival - State Holiday',
+    type: 'PUBLIC',
+    isActive: true,
+    createdAt: '2026-01-05T00:00:00Z',
+  },
+  {
+    id: 'hol_5',
+    date: '2027-01-26',
+    name: 'Republic Day',
+    description: 'National Holiday',
+    type: 'PUBLIC',
+    isActive: true,
+    createdAt: '2026-01-05T00:00:00Z',
+  },
+  {
+    id: 'hol_6',
+    date: '2026-11-20',
+    name: 'Founder Foundation Day',
+    description: 'Optional / Floating holiday for Genkit staff',
+    type: 'OPTIONAL',
+    isActive: true,
+    createdAt: '2026-06-01T00:00:00Z',
+  },
+];
